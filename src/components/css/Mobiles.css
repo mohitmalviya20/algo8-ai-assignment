@@ -1,0 +1,19 @@
+.mobiles {
+  margin: 50px 65px;
+}
+.card {
+  width: 345px;
+}
+.button {
+  color: #4baf4d !important;
+  font-weight: 800 !important;
+}
+.button .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+@media screen and (max-height: 768px) {
+  .mobiles {
+    margin: 50px 20px;
+  }
+}

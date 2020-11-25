@@ -1,0 +1,48 @@
+.login {
+  height: 90vh;
+  text-align: center;
+  color: var(--primary);
+  margin-top: 3rem;
+  color: #4baf4d;
+}
+.login > form {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 0 auto;
+}
+.login > h1 {
+  margin: 1rem 0;
+  font-weight: 300;
+}
+.information {
+  color: gray;
+  font-size: x-small;
+  margin: 1rem 0;
+}
+.login > h2 {
+  margin: 1rem 0;
+  font-weight: 100;
+  margin-right: auto;
+}
+.login > form > .input {
+  margin: 1rem 0 !important;
+  border-radius: 1rem;
+}
+.login > .MuiSvgIcon-root {
+  font-size: 10rem;
+}
+.login > form > a > button {
+  width: 50%;
+  margin: 1rem 0 !important;
+  padding: 1rem;
+  margin-right: 50rem;
+  background-color: #4baf4d !important;
+  border-radius: 3rem;
+  font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  .login > form {
+    width: 23rem;
+  }
+}

@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: white;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  border-bottom: 2px solid lightgray;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar img {
+  object-fit: contain;
+  height: 50px;
+}
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+.navbar_links h2 {
+  margin-left: 25px;
+  font-weight: 400;
+}
+.navbar_search {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 5px;
+}
+.navbar_search input {
+  border: none;
+  outline-width: 0;
+  margin-left: 5px;
+}

@@ -1,0 +1,31 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+.cart_bill {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  z-index: 1000;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.cart_bill > h2 {
+  font-weight: 300;
+  margin: 0 2rem;
+}
+
+.cart_bill > button {
+  background-color: #4baf4d !important;
+  width: 10rem !important;
+  font-size: 1rem !important;
+  color: white !important;
+  font-weight: 800 !important;
+  border-radius: 1rem !important;
+}

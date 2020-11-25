@@ -1,0 +1,19 @@
+.admin > form > input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 15px;
+}
+
+.admin > form > .button {
+  background-color: #4baf4d !important;
+  width: 10rem !important;
+  font-size: 1rem !important;
+  color: white !important;
+  font-weight: 800 !important;
+  border-radius: 1rem !important;
+}
+.admin > form {
+  width: fit-content;
+  margin: 25px auto;
+}
